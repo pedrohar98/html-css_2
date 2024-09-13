@@ -21,9 +21,11 @@ body {
 }
 
 .principal {
+      align-items: center;
       background-image: url("../assets/Background.png");
       background-repeat: no-repeat;
       background-size: contain;
+      text-align: center;
 }
 
 .container {
@@ -37,6 +39,7 @@ body {
     border-radius: 5px;
     color: var(--branco-principal);
     display: block;
+    margin-bottom: 1em;
     padding: 1em;
     text-decoration: none;
 }
@@ -54,4 +57,12 @@ body {
 .container__titulo {
     font-size: 28px;
     font-weight: 700;
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+
+.container__caixa {
+    margin: 0 6em;
 }
