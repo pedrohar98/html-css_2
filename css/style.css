@@ -1,4 +1,4 @@
-* {
+    * {
     margin: 0;
     padding: 0;
 }
@@ -65,4 +65,33 @@ body {
 
 .container__caixa {
     margin: 0 6em;
+}
+
+.secudanrio__imagem {
+    width: 80%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao__titulo {
+    color: var(--branco-principal);
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+    color: var(--cinza-secundario);
+}
+
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__descricao {
+    padding: 2em;
 }
