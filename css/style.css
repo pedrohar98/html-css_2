@@ -125,16 +125,22 @@ body {
     list-style-type: none;
 }
 .lista__link{
-    padding: 0 0.5rem;
+    padding: 2rem 0.5rem 0.5rem 0.5rem;
 }
 .lista__link a {
     color: var(--branco-principal);
     text-decoration: none;
 }
+.lista__link a:hover {
+    color: var(--cinza-secundario);
+}
+.lista__link a:active {
+    color: var(--botao-azul);
+}
 
 .rodape__texto {
     color: var(--cinza-secundario);
-    padding: 1rem 0.5rem;
+    padding: 0.5rem 0.5rem;
 }
 
 /* 
